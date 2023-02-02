@@ -1,0 +1,20 @@
+// Validation Yazalım Doğum Tarihi İçin!!! Doğum Tarihi prop eklememiz gerekmektedir!!
+
+// Bussiness katmanı oluşturalım. IoC katmanı yazalım
+
+// Mail atma servisi yazabiliriz.
+
+// Authentication ve Authorization yapabiliriz.
+
+// Fotoğraf ekleme işlemi gerçekleştirebiliriz
+
+// Automapper ve Autofac kütüphaneleri ekleyelim. Bussines'ta
+
+// Belki Fluent Validation yapabiliriz.
+
+// GetFilteredList vs eklenmesi yapılabilir. Giriş işlemlerinde kontrollerimizi gerçekleştirelim.
+
+// Kullanıcı deneyimini arttıralım.
+
+
+

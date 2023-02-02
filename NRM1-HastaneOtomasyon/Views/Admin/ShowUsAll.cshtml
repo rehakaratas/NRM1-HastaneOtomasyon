@@ -1,0 +1,116 @@
+﻿@*@model NRM1_HastaneOtomasyon.Models.PersonelManagerVM
+@{
+    ViewData["Title"] = "ShowUsAll";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>ShowUsAll</h1>
+
+
+<h3>MANAGER LİST</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Surname
+            </th>
+            <th>
+                EmailAddress
+            </th>
+            <th>
+                Password
+            </th>
+            <th>
+                Status
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ManagerList)
+        {
+                <tr>
+                    <td>
+                        @item.Id
+                    </td>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        @item.Surname
+                    </td>
+                    <td>
+                        @item.EmailAddress
+                    </td>
+                    <td>
+                        @item.Password
+                    </td>
+                    <td>
+                        @item.Status
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+
+<h3>PERSONNEL LİST</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Surname
+            </th>
+            <th>
+                EmailAddress
+            </th>
+            <th>
+                Password
+            </th>
+            <th>
+                Status
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.PersonnelList)
+        {
+                <tr>
+                    <td>
+                        @item.Id
+                    </td>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        @item.Surname
+                    </td>
+                    <td>
+                        @item.EmailAddress
+                    </td>
+                    <td>
+                        @item.Password
+                    </td>
+                    <td>
+                        @item.Status
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>*@
